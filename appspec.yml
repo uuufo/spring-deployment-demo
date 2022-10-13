@@ -3,6 +3,7 @@ os: linux
 files:
   - source: target/ROOT.war
     destination: /var/lib/tomcat9/webapps
+file_exists_behavior: OVERWRITE
 permissions:
   - object: /
     pattern: "**"
